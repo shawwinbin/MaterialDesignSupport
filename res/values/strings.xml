@@ -1,0 +1,547 @@
+<resources>
+
+    <string name="app_name">Material Design</string>
+    <string name="interstitial_topic">Material\nDesign</string>
+    <string name="interstitial_sub_topic">Metaphor &amp; Magic</string>
+    <string name="action_card_title">Action card</string>
+    <string name="action_card_clear_button">Clear</string>
+    <string name="action_card_submit_button">Submit</string>
+    <string name="elevation_card_title">Elevation card</string>
+    <string name="elevation_card_click_me">Click me!</string>
+    <string name="detail_view">Detail page</string>
+    <string name="detail_title_view_name">detail:title:text</string>
+    <string name="detail_info_view_name">detail:info:text</string>
+    <string name="card_view_name">card:view:name</string>
+    <string name="navigation_card_title">Navigation card</string>
+    <string name="navigation_card_click_me">Click me!</string>
+    <string name="interstitial_authors">Thomas Belk\nDan Cottner</string>
+    <string name="drawer_open">Navigation drawer is open</string>
+    <string name="drawer_close">Navigation drawer is closed</string>
+    <string name="video_loading">Loading video&#8230;</string>
+    <string name="presentation_what_is_material_title">What is Material Design?</string>
+    <string name="presentation_one_adaptive_design_title">One Adaptive Design</string>
+    <string name="presentation_visual_design_title">Visual Design</string>
+    <string name="presentation_app_environment_title">App Environment</string>
+    <string name="presentation_paper_and_ink_title">Paper and Ink</string>
+    <string name="presentation_meaningful_motion_title">Meaningful Motion</string>
+    <string name="dev_activity_transition_title">Activity Transition</string>
+    <string name="dev_card_view_title">Card View</string>
+    <string name="dev_elevation_title">Elevation</string>
+    <string name="dev_view_clipping_title">View Clipping</string>
+    <string name="dev_view_animation_title">View Animation</string>
+    <string name="dev_ripple_title">Ripple</string>
+
+    <string-array name="drawer_titles">
+        <item>Material Design</item>
+        <item>Principles</item>
+        <item>Development Concepts</item>
+        <item>Playground</item>
+    </string-array>
+    <string-array name="drawer_classes">
+        <item>com.wildsmith.material.interstitial.InterstitialActivity</item>
+        <item></item>
+        <item></item>
+        <item>com.wildsmith.material.playground.PlaygroundActivity</item>
+    </string-array>
+    <string-array name="drawer_images">
+        <item></item>
+        <item>northstar_white</item>
+        <item>curly_white</item>
+        <item>slide_white</item>
+    </string-array>
+    <string-array name="material_design_titles" />
+    <string-array name="material_design_classes" />
+    <string-array name="principles_titles">
+        <item>What is Material Design?</item>
+        <item>App Environment</item>
+        <item>Paper and Ink</item>
+        <item>Visual Design</item>
+        <item>Meaningful Motion</item>
+        <item>One Adaptive Design</item>
+    </string-array>
+    <string-array name="principles_classes">
+        <item>com.wildsmith.material.presentation.uitopics.WhatIsMaterialActivity</item>
+        <item>com.wildsmith.material.presentation.uitopics.AppEnvironmentActivity</item>
+        <item>com.wildsmith.material.presentation.uitopics.PaperAndInkActivity</item>
+        <item>com.wildsmith.material.presentation.uitopics.VisualDesignActivity</item>
+        <item>com.wildsmith.material.presentation.uitopics.MeaningfulMotionActivity</item>
+        <item>com.wildsmith.material.presentation.uitopics.OneAdaptiveDesignActivity</item>
+    </string-array>
+    <string-array name="development_concepts_titles">
+        <item>View Clipping</item>
+        <item>Activity Transition</item>
+        <item>View Animation</item>
+        <item>Elevation</item>
+        <item>Ripple</item>
+        <item>CardView</item>
+    </string-array>
+    <string-array name="development_concepts_classes">
+        <item>com.wildsmith.material.presentation.devtopics.ViewClippingActivity</item>
+        <item>com.wildsmith.material.presentation.devtopics.ActivityTransitionActivity</item>
+        <item>com.wildsmith.material.presentation.devtopics.ViewAnimationActivity</item>
+        <item>com.wildsmith.material.presentation.devtopics.ElevationActivity</item>
+        <item>com.wildsmith.material.presentation.devtopics.RippleActivity</item>
+        <item>com.wildsmith.material.presentation.devtopics.CardViewActivity</item>
+    </string-array>
+    <string-array name="playground_titles" />
+    <string-array name="playground_classes" />
+    <string-array name="what_is_material_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="what_is_material_values">
+        <item></item>
+        <item>@string/presentation_what_is_material_title</item>
+        <item></item>
+        <item>Google’s new “visual language … that synthesizes the classic principles of good design with the innovation and possibility of technology and science”</item>
+        <item>Metaphor</item>
+        <item>Grounded in the tactile attributes of paper and ink\n\nElements coexist and move around in a shared, rationalized space</item>
+        <item>what_is_material_boucicaut_meister</item>
+        <item>what_is_material_card</item>
+        <item>Magic</item>
+        <item>Harnesses technology to make the impossible possible\n\nUser input ripples through the interface and transforms the design</item>
+        <item>what_is_material_paper_transforming</item>
+        <item>what_is_material_input_ripple</item>
+        <item>Metaphor + Magic = ?</item>
+        <item>what_is_material_magic_the_gathering</item>
+        <item></item>
+        <item></item>
+        <item>1</item>
+        <item>@string/presentation_app_environment_title</item>
+    </string-array>
+    <string-array name="app_environment_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="app_environment_values">
+        <item></item>
+        <item>@string/presentation_app_environment_title</item>
+        <item>Device Space</item>
+        <item>Material elements reside within the same physical space afforded by the device\n\nThin layers of paper stack on top of each other to create the interface</item>
+        <item>app_environment_device_space</item>
+        <item>Dimensionality</item>
+        <item>Depth within an app communicates hierarchy and importance\n\nDepth is NOT ornament</item>
+        <item>app_environment_depth_hierarchy</item>
+        <item>0</item>
+        <item>@string/presentation_what_is_material_title</item>
+        <item>2</item>
+        <item>@string/presentation_paper_and_ink_title</item>
+    </string-array>
+    <string-array name="paper_and_ink_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="paper_and_ink_values">
+        <item></item>
+        <item>@string/presentation_paper_and_ink_title</item>
+        <item>Paper Craft</item>
+        <item>Every pixel drawn on the screen resides on a sheet of paper\n\nSeams, steps, and toolbars are created with different arrangements of paper</item>
+        <item>paper_and_ink_seam</item>
+        <item>paper_and_ink_step</item>
+        <item>paper_and_ink_toolbar</item>
+        <item>paper_and_ink_fab_seam</item>
+        <item>paper_and_ink_fab_step</item>
+        <item>Ink</item>
+        <item>Paper is the surface; ink is the content\n\nInk is confined by the bounds of the paper it saturates</item>
+        <item>paper_and_ink_ink</item>
+        <item>paper_and_ink_ink_fill</item>
+        <item>1</item>
+        <item>@string/presentation_app_environment_title</item>
+        <item>3</item>
+        <item>@string/presentation_visual_design_title</item>
+    </string-array>
+    <string-array name="visual_design_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="visual_design_values">
+        <item></item>
+        <item>@string/presentation_visual_design_title</item>
+        <item>Grid</item>
+        <item>A consistent baseline grid is the foundation for all Material layouts\n\nThe base unit is 8dp</item>
+        <item>visual_design_01_grid</item>
+        <item>visual_design_02_grid</item>
+        <item>Color</item>
+        <item>Color is used to highlight important elements and reinforce branding\n\nDynamic color strengthens the bond between related elements</item>
+        <item>visual_design_color</item>
+        <item>visual_design_dynamic_color</item>
+        <item>Typography</item>
+        <item>Typographic scale is used to create a clear hierarchy within a layout\n\nType sits on the baseline grid to create a sense of rhythm</item>
+        <item>visual_design_typographic_scale</item>
+        <item>visual_design_type_rhythm</item>
+        <item>Icons</item>
+        <item>Icons are used to accelerate understanding\n\nIcons are simple, modern, friendly, and sometimes quirky\n\nShapes are bold and geometric</item>
+        <item>visual_design_system_icons</item>
+        <item>Imagery</item>
+        <item>The style should be optimistic, delightful, and honest\n\nUse photography to highlight specific stories\n\nUse illustration to represent concepts or metaphors</item>
+        <item>visual_design_photography</item>
+        <item>visual_design_illustration</item>
+        <item>2</item>
+        <item>@string/presentation_paper_and_ink_title</item>
+        <item>4</item>
+        <item>@string/presentation_meaningful_motion_title</item>
+    </string-array>
+    <string-array name="meaningful_motion_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="meaningful_motion_values">
+        <item></item>
+        <item>@string/presentation_meaningful_motion_title</item>
+        <item>Users Initiate Change</item>
+        <item>Users are the prime movers of the app experience\n\nImmediate tactile feedback lets users know they’ve been heard</item>
+        <item>meaningful_motion_animation_responsive</item>
+        <item>Shared Stage</item>
+        <item>Material lives in the same space as we do</item>
+        <item>meaningful_motion_shared_stage</item>
+        <item>Motion Focuses Attention</item>
+        <item>Teleportation is disorienting\n\nTransition animations help direct focus\n\nMaterial objects have mass and move accordingly</item>
+        <item>meaningful_motion_transition_directs_focus</item>
+        <item>3</item>
+        <item>@string/presentation_visual_design_title</item>
+        <item>5</item>
+        <item>@string/presentation_one_adaptive_design_title</item>
+    </string-array>
+    <string-array name="one_adaptive_design_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="one_adaptive_design_values">
+        <item></item>
+        <item>@string/presentation_one_adaptive_design_title</item>
+        <item>One Adaptive Design</item>
+        <item>Every device is a different view on the same underlying system\n\nEach view is tailored to the size and interaction appropriate to the device</item>
+        <item>one_adaptive_design_01_adaptive</item>
+        <item>one_adaptive_design_02_adaptive</item>
+        <item>Responsive Principles</item>
+        <item>Respect human constraints: a larger screen does not equal larger cognitive capacity\n\nPull the furniture off the walls</item>
+        <item>one_adaptive_design_responsive</item>
+        <item>4</item>
+        <item>@string/presentation_meaningful_motion_title</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="view_clipping_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="view_clipping_values">
+        <item></item>
+        <item>View Clipping</item>
+        <item>Clipping</item>
+        <item>Refers to the act of re-shaping a view to its outline.\n\nThis means we can take a rectangular image and clip it into a circular shape.\n\nLets begin with a rectangular image.</item>
+        <item>view_clipping</item>
+        <item>That image needs some elements removed.\n\nWe can remove these by clipping.</item>
+        <item>view_clipping_interstital</item>
+        <item>The Code</item>
+        <item>view_clipping_layout</item>
+        <item>view_clipping_shape_layout</item>
+        <item>view_clipping_java</item>
+        <item>Summary</item>
+        <item>Clipping isn\'t hard but it does come with a caveat, it\'s expensive.\n\nNote: rectangle, circle, and round rectangle are the only shapes that support outline clipping.</item>
+        <item></item>
+        <item></item>
+        <item>1</item>
+        <item>Activity Transition</item>
+    </string-array>
+    <string-array name="activity_transition_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="activity_transition_values">
+        <item></item>
+        <item>Activity Transition</item>
+        <item>Three Types:</item>
+        <item>1. Enter\n\n2. Exit\n\n 3. Shared Element</item>
+        <item>Enter \\ Exit Transitions</item>
+        <item>1. Explode\n\n2. Slide\n\n 3. Fade</item>
+        <item>Enter \\ Exit Transitions</item>
+        <item>Can be specified in code with transition objects.\n\nThese objects can be custom or use a pre-existing transition.</item>
+        <item>Shared Element</item>
+        <item>1. changeBounds\n\n2. changeClipBounds\n\n3. changeTransform\n\n4. moveImage</item>
+        <item>Example Transitions</item>
+        <item>BUT WAIT! We need to enable transitions, either in code or within our style.\n\nPreferred method, enable it within the projects style.xml</item>
+        <item>activity_transition_enable_transition</item>
+        <item>Exit Example</item>
+        <item>activity_transition_exit_example</item>
+        <item>What the what?</item>
+        <item>What was that setAllowExitTransitionOverlap(true) method for?\n\nTo start an exit transition as soon as possible. This lets you have more dramatic exit transitions.</item>
+        <item>Enter Example</item>
+        <item>activity_transition_enter_example</item>
+        <item>What the what?</item>
+        <item>What was that setAllowEnterTransitionOverlap(true) method for?\n\nTo start an enter transition as soon as possible. This lets you have more dramatic enter transitions.</item>
+        <item>Shared Element Example</item>
+        <item>Caller:</item>
+        <item>activity_transition_shared_element_caller</item>
+        <item>Callee:</item>
+        <item>activity_transition_shared_element_callee</item>
+        <item>Kick off:</item>
+        <item>activity_transition_shared_element_kick_off</item>
+        <item>Result:</item>
+        <item>activity_transition</item>
+        <item>Things to Note</item>
+        <item>If the current activity MUST finish but a transition is being performed, call activity.finishAfterTransition() vs. activity.finish()\n\nThis way the transition animation is not choppy or interrupted.</item>
+        <item>0</item>
+        <item>View Clipping</item>
+        <item>2</item>
+        <item>View Animation</item>
+    </string-array>
+    <string-array name="view_animation_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="view_animation_values">
+        <item></item>
+        <item>View Animation</item>
+        <item>Let\'s Be Clear</item>
+        <item>Not to be confused with Activity Transition, Ripple feedback, or State Changes (translation z).\n\nView animation deals with displaying views in a colorful fashion.</item>
+        <item>Two General Methods:</item>
+        <item>1. Reveal Effect\n\n2. Curved Motion</item>
+        <item>Reveal Effect</item>
+        <item>Done with the new ViewAnimationUtils class. This class has only one method, createCircularReveal(), which as the name implies, creates a circular reveal for the view.\n\nNote: This is a preferred method for views with clipped outlines.</item>
+        <item>view_animation_reveal_effect</item>
+        <item>view_animation_animate_view_up</item>
+        <item>view_animation_animate_view_down</item>
+        <item>Curved Motion</item>
+        <item>Animations in material design rely on curves for time interpolation and spatial movement patterns. New APIs enable you to define custom timing curves and curved motion patterns for animations.</item>
+        <item>Old Interpolators</item>
+        <item>We already have accelerate / decelerate interpolators; interpolators where the rate of change starts and ends slowly but accelerates through the middle.</item>
+        <item>view_animation_accelerate_decelerate_interpolator</item>
+        <item>New Interpolator!</item>
+        <item>PathInterpolator. Similar but different.\n\nBased on a Bézier curve or a Path object</item>
+        <item>view_animation_path_interpolator</item>
+        <item>vew_animation_path_interpolator_vs_linear</item>
+        <item>view_animation_path_interpolator_xml</item>
+        <item>view_animation_path_interpolator_code</item>
+        <item>view_animation_path_interpolator_inclusion_xml</item>
+        <item>view_animation_path_interpolator_inclusion_code</item>
+        <item>1</item>
+        <item>Activity Transition</item>
+        <item>3</item>
+        <item>Elevation</item>
+    </string-array>
+    <string-array name="elevation_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="elevation_values">
+        <item></item>
+        <item>Elevation</item>
+        <item>Shadows</item>
+        <item>Views can now cast shadows based on differences in elevation; their Z plane property.\n\nAs it stands now, shadows are only cast on the Z=0 plane.</item>
+        <item>Z Movement Animation</item>
+        <item>Translation Z is another property that can be used to animate changes in an elements Z plane.\n\nSimilar to existing methods for Translation X and Translation Y; which both exist now.</item>
+        <item>Z Movement Animation</item>
+        <item>Translation Z adjusts an elements depth relative to its current depth. Confused? Don\'t be!\n\nImagine we have a view with a static elevation = 1. If we translate that views z plane, we\'re essentially moving it towards us or away from us.</item>
+        <item>elevation_dimens_specifications</item>
+        <item>elevation_translation_z</item>
+        <item>elevation_image_button</item>
+        <item>elevation_example</item>
+        <item>This can also be achieved in code.</item>
+        <item>elevation_code_sample</item>
+        <item>Changing Depth</item>
+        <item>Views can optimize this OS handled logic to demonstrate more actions to the user.</item>
+        <item>Side Note</item>
+        <item>By clipping a view to its outline we ensure its shadow is correct during elevation modifications.</item>
+        <item>2</item>
+        <item>View Animation</item>
+        <item>4</item>
+        <item>Ripple</item>
+    </string-array>
+    <string-array name="ripple_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationVideoRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="ripple_values">
+        <item></item>
+        <item>Ripple</item>
+        <item>Touch Feedback</item>
+        <item>Until now we\'ve had a general two ways represent feedback.\n\n1. Depressed Buttons\n\n2. Non-Depressed Buttons</item>
+        <item>ripple_water</item>
+        <item>Ripple</item>
+        <item>Allows us as developers, to convey to the user the UI has registered a touch event.\n\nCan be used in combination with button depression.</item>
+        <item>Buttons &amp; EditText</item>
+        <item>Get this ripple affect for free!\n\nYou can specify the default touch feedback color in your applications style.xml</item>
+        <item>ripple_default_color_image</item>
+        <item>ripple_default_color_video_one</item>
+        <item>U.G.L.Y?!</item>
+        <item>Why isn\'t that prettier?\n\nWe forgot to apply the ability for the buttons to match their surroundings.\n\nBy doing so, we allow the ripple to \'flow\' through the UI element.\n\nThere are two options for doing this.</item>
+        <item>ripple_button_borders</item>
+        <item>ripple_default_color_video_two</item>
+        <item>Better!!! What else do we get for free?</item>
+        <item>ripple_default_color_video_three</item>
+        <item>ripple_default_color_video_four</item>
+        <item>Custom Views</item>
+        <item>But what about custom views? How do we allow them to use this ripple affect?\n\nThe preferred approach is to do it within the XML.</item>
+        <item>ripple_fab_imagebutton</item>
+        <item>ripple_fab_declaration</item>
+        <item>ripple_fab_shape</item>
+        <item>ripple_fab_interaction</item>
+        <item>Summary</item>
+        <item>1. Easy does it.\n\n2. Easily done.\n\n</item>
+        <item>3</item>
+        <item>Elevation</item>
+        <item>5</item>
+        <item>Card View</item>
+    </string-array>
+    <string-array name="card_view_classes">
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationActionBarRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationImageRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationInformationRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationTitleRow</item>
+        <item>com.wildsmith.material.presentation.rows.PresentationNavigationRow</item>
+    </string-array>
+    <string-array name="card_view_values">
+        <item></item>
+        <item>Card View</item>
+        <item>extends FrameLayout</item>
+        <item>Providing you the ability to show information inside cards that have a consistent look on any app.</item>
+        <item>card_view_layout_xml</item>
+        <item>card_view_resulting_ui_element</item>
+        <item>Features</item>
+        <item>1. Customizable corner radius\n\n2. Adjustable elevation with appropriate shadow outline\n\n3. Even background color adjustments!</item>
+        <item>It\'s in the appcompat v7 support library</item>
+        <item>4</item>
+        <item>Ripple</item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+</resources>

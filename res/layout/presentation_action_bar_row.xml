@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/action_bar_color" >
+
+    <TextView
+        android:id="@+id/presentation_action_bar_title"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/action_bar_color"
+        android:gravity="center_vertical"
+        android:paddingLeft="47dp"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+<!-- android:elevation="1dp" -->

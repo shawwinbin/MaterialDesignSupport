@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_purple">#FF6639B6</color>
+    <color name="dark_purple">#FF4E2C8B</color>
+    <color name="action_bar_color">@color/light_purple</color>
+    <color name="notification_bar_color">@color/dark_purple</color>
+    <color name="divider_color">#D0D0D0</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="purple_text_color">@color/light_purple</color>
+    <color name="black_text_color">#DE000000</color>
+    <color name="gray_text_color">@android:color/darker_gray</color>
+    <color name="interstitial_authors_subheader">#8A000000</color>
+    <color name="drawer_title_color">#FF00BEA4</color>
+    <color name="interstitial_fab_pressed_color">#FFF6F6F6</color>
+    <color name="presentation_fab_pressed_color">#FF1CE8B5</color>
+    <color name="drawer_chevron_color">#42000000</color>
+    <color name="drawer_icon_not_selected_color">#8A000000</color>
+    <color name="drawer_icon_selected_color">#FF00BEA4</color>
+    <color name="drawer_item_selected_color">#FF25A599</color>
+    <color name="drawer_item_not_selected_color">#DE000000</color>
+    <color name="interstitial_fab_color">#FF1CE8B5</color>
+    <color name="interstitial_fab_drawable_color">#8A000000</color>
+    <color name="presentation_fab_drawable_color">#8A000000</color>
+    <color name="presentation_fab_color">#FFF6F6F6</color>
+    <color name="next_steps_background_color">#FF00BEA4</color>
+
+</resources>

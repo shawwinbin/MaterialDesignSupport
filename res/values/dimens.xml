@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="fab_size">60dp</dimen>
+    <dimen name="half_fab_size">30dp</dimen>
+    <dimen name="button_elevation">1dp</dimen>
+    <dimen name="button_press_elevation">3dp</dimen>
+
+    <item name="floatinghintedittext_hint_scale" format="float" type="dimen">0.6</item>
+
+</resources>

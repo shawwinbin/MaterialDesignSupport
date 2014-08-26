@@ -1,0 +1,84 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wildsmith.material"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:name=".core.CoreMaterialApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".interstitial.InterstitialActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wildsmith.material.presentation.uitopics.AppEnvironmentActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.uitopics.MeaningfulMotionActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.uitopics.OneAdaptiveDesignActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.uitopics.PaperAndInkActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.uitopics.VisualDesignActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.uitopics.WhatIsMaterialActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.devtopics.ActivityTransitionActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.devtopics.CardViewActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.devtopics.ElevationActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.devtopics.ViewClippingActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.devtopics.DevTopicsActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.devtopics.ViewAnimationActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.presentation.devtopics.RippleActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wildsmith.material.playground.PlaygroundActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.wildsmith.material.playground.detail.PlaygroundDetailActivity" />
+    </application>
+
+</manifest>

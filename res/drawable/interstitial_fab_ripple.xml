@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/interstitial_fab_pressed_color" >
+
+    <item android:drawable="@drawable/interstitial_fab"/>
+
+</ripple>

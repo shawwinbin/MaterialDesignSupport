@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <View
+        android:id="@+id/action_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true" />
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_bar_view"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        card_view:cardBackgroundColor="@android:color/holo_blue_dark"
+        card_view:cardCornerRadius="6dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/detail_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:text="@string/detail_view"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+            <!-- android:viewName="@string/detail_title_view_name" -->
+
+            <TextView
+                android:id="@+id/detail_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/detail_view"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+            <!-- android:viewName="@string/detail_info_view_name" -->
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

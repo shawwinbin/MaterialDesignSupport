@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:scrollbars="none" />
+
+    <!-- style="?android:attr/actionBarTheme" -->
+    <TextView
+        android:id="@+id/presentation_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/action_bar_color"
+        android:gravity="center_vertical"
+        android:paddingLeft="47dp"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <com.wildsmith.material.views.FloatingActionButton
+        android:id="@+id/fab_button"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/presentation_fab"
+        android:src="@drawable/chevron" />
+
+</RelativeLayout>

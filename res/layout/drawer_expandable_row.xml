@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/expandable_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/actionBarSize"
+        android:padding="16dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="0dp"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="@color/drawer_item_not_selected_color"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/expand_collapse_image"
+        android:layout_width="25dp"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_marginRight="25dp"
+        android:gravity="center_vertical"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_action_expand_small" />
+
+</LinearLayout>

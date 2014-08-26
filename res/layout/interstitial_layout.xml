@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light" >
+
+    <View
+        android:id="@+id/interstitial_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/action_bar_color" />
+
+    <LinearLayout
+        android:id="@+id/interstitial_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/background_color"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="20dp"
+            android:text="@string/interstitial_authors"
+            android:textColor="@color/interstitial_authors_subheader"
+            android:textSize="16sp"/>
+            <!-- android:viewName="interstitial:bottom:view" --> 
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/interstitial_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/interstitial_bottom"
+        android:layout_below="@id/interstitial_action_bar"
+        android:background="@color/background_color"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            android:paddingTop="20dp"
+            android:text="@string/interstitial_topic"
+            android:textColor="@color/purple_text_color"
+            android:textSize="56sp"/>
+            <!-- android:viewName="interstitial:top:view" --> 
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="18dp"
+            android:text="@string/interstitial_sub_topic"
+            android:textColor="@color/black_text_color"
+            android:textSize="26sp"/>
+            <!-- android:viewName="interstitial:top:view" --> 
+    </LinearLayout>
+
+    <View
+        android:id="@+id/interstitial_fab_grip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/half_fab_size"
+        android:layout_alignBottom="@id/interstitial_top" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@id/interstitial_top"
+        android:background="@color/divider_color" />
+
+    <com.wildsmith.material.views.FloatingActionButton
+        android:id="@+id/fab_button"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/interstitial_fab_grip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/interstitial_fab"
+        android:src="@drawable/ic_action_play" />
+
+</RelativeLayout>

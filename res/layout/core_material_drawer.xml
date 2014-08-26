@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="290dp"
+        android:layout_height="match_parent"
+        card_view:cardBackgroundColor="@android:color/transparent"
+        card_view:cardCornerRadius="3dp" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/left_drawer_title"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@color/drawer_title_color"
+                
+                android:gravity="center_vertical"
+                android:paddingLeft="47dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <com.wildsmith.material.list.expandable.AnimatedExpandableListView
+                android:id="@+id/left_drawer_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/background_color"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:groupIndicator="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
